@@ -6,18 +6,17 @@
 
 'use strict';
 
+// fetch variables from CSS
+function cssvar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name);
+}
+
 Chart.defaults.global.defaultFontSize = 8;
 Chart.defaults.global.animation.duration = 500;
 Chart.defaults.global.legend.display = false;
 Chart.defaults.global.elements.line.backgroundColor = cssvar('--chart-area-color') || 'rgba(0,0,0,0.0)';
 Chart.defaults.global.elements.line.borderColor = cssvar('--chart-line-color') || 'rgba(0,0,0,0.9)';
 Chart.defaults.global.elements.line.borderWidth = 2;
-
-// fetch variables from CSS
-function cssvar(name) {
-  return getComputedStyle(document.documentElement).getPropertyValue(name);
-}
-
 
 var socket = io(location.protocol + '//' + location.hostname + ':' + (port || location.port), {
   path: socketPath,
