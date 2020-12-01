@@ -1,5 +1,4 @@
 * {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 :root { 
@@ -10,8 +9,8 @@
 
 body {
   background: #111;
+  color: #eee;
 }
-
 body.hide-cpu .container.cpu,
 body.hide-mem .container.mem,
 body.hide-load .container.load,
@@ -23,13 +22,13 @@ body.hide-statusCodes .container.statusCodes {
 
 h1 {
   font-size: 3em;
-  color: #222;
+  color: #aaa;
   margin: 0;
 }
 
 h5 {
   margin: 0;
-  color: #888;
+  color: #555;
 }
 
 h6 {
@@ -38,14 +37,14 @@ h6 {
 
 p {
   font-size: 0.7em;
-  color: #888;
+  color: #555;
 }
 
 span {
   cursor: pointer;
   font-size: 10px;
   margin-left: 5px;
-  border: 1px solid #DDD;
+  border: 1px solid #222;
   padding: 3px 10px 4px 10px;
 }
 
@@ -60,7 +59,7 @@ canvas {
 }
 
 .active {
-  background: #eeeeee;
+  background: #111111;
 }
 
 .stats-column {
@@ -86,7 +85,7 @@ canvas {
 
 .health-check-row {
   align-items: center;
-  border: 1px solid #eee;
+  border: 1px solid #111;
   border-radius: 4px;
   display: flex;
   margin: 0 0 10px 0;
@@ -101,7 +100,7 @@ canvas {
 }
 
 .health-check-title-column h5 a {
-  color: #888;
+  color: #777;
   cursor: pointer;
   text-decoration: none;
 }
@@ -121,17 +120,17 @@ canvas {
 }
 
 .health-check-status-container.ok {
-  background: #75D701;
+  background: #526e3a;
 }
 
 .health-check-status-container.failed {
-  background: #E53A40;
+  background: #ca343b;
 }
 
 .health-check-status-container h1 {
   line-height: 2em;
   font-size: 1.5em;
-  color: #fff;
+  color: #000;
   text-align: center;
   text-transform: uppercase;
 }
@@ -158,17 +157,17 @@ canvas {
 }
 
 .status-code-2xx:before {
-  background-color: #75D701;
+  background-color: #396b01;
 }
 
 .status-code-3xx:before {
-  background-color: #47b8e0;
+  background-color: #255f73;
 }
 
 .status-code-4xx:before {
-  background-color: #ffc952;
+  background-color: #b58e3c;
 }
 
 .status-code-5xx:before {
-  background-color: #E53A40;
+  background-color: #bf3237;
 }
