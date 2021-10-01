@@ -1,3 +1,5 @@
+# WARNING - INSECURE !!
+
 # express-status-monitor
 
 [![Dependency Status](https://david-dm.org/RafalWilinski/express-status-monitor/status.svg?style=flat)](https://david-dm.org/RafalWilinski/express-status-monitor) [![devDependencies Status](https://david-dm.org/RafalWilinski/express-status-monitor/dev-status.svg)](https://david-dm.org/RafalWilinski/express-status-monitor?type=dev)
