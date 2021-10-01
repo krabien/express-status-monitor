@@ -1,4 +1,4 @@
-# WARNING - INSECURE !!
+# Adds dark mode
 
 # express-status-monitor
 
